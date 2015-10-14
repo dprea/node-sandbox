@@ -1,0 +1,27 @@
+{
+  "name": "animationsandbox",
+  "version": "0.0.1",
+  "authors": [
+    "Dustin Rea"
+  ],
+  "description": "Sandbox for playing with CSS and JS animations.",
+  "main": "server.js",
+  "moduleType": [],
+  "keywords": [
+    "CSS3",
+    "animation"
+  ],
+  "license": "MIT",
+  "homepage": "http://dustinrea.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

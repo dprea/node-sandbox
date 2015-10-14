@@ -1,0 +1,20 @@
+{
+  "name": "animationsandbox",
+  "description": "Sandbox for playing with CSS and JS animations.",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Dustin Rea",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.11.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-sass": "~3.3.3"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.0.4"
+  }
+}
