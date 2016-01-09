@@ -1,7 +1,7 @@
 {
-  "name": "animationsandbox",
-  "description": "Sandbox for playing with CSS and JS animations.",
-  "version": "0.0.3",
+  "name": "nodesandbox",
+  "description": "Sandbox for playing Node.js",
+  "version": "0.0.4",
   "private": true,
   "author": "Dustin Rea",
   "engines": {
