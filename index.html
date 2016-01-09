@@ -1,22 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Node Server Demo</title>
-        <link rel="stylesheet" type="text/css" src="/client/assets/css/style.css" />
+        <meta charset="utf-8">
+        <meta name="description" content="Node.js Playground: Experimental Learning">
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+        <meta itemprop="description" content="Node.js Playground: Experimental Learning">
+        
+        <meta itemprop="name" content="Node Playground">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta id="theme-color" name="theme-color" content="#ffffff">
+        
+        <base target="_blank">
+        
+        <title>Node.js Playground</title>
+        <link type="text/css" rel="stylesheet" href="/client/assets/css/style.css" />
     </head>
-    <body>
+    <body id="app" name="app">
         <header>
-            <h1>Node Server Demo</h1>
+            <h1>Node.js Playground</h1>
             <p>By: Dustin Rea</p>
         </header>
         <section>
-            <p>
-                TODO: Add Animated Views
-            </p>
+            <div>
+                <h2>NodeRTC Test</h2>
+                <video autoplay></video>
+            </div>
             <form>
                 <input type="text" />
                 <input type="submit" />
             </form>
         </section>
+        <script type="text/javascript" src="/client/bower_components/webrtc-adapter/adapter.js" async></script>
+        <script type="text/javascript" src="/client/assets/js/client-main.js" async></script>
     </body>
 </html>

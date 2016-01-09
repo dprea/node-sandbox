@@ -1,7 +1,7 @@
 {
   "name": "animationsandbox",
   "description": "Sandbox for playing with CSS and JS animations.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
   "author": "Dustin Rea",
   "engines": {
@@ -12,9 +12,12 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "node-sass": "~3.3.3"
+    "nodertc": "file:lib/nodertc",
+    "webrtc-adapter": "0.0.7"
   },
   "devDependencies": {
-    "gulp-sass": "^2.0.4"
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "jsdoc": "^3.3.3"
   }
 }
