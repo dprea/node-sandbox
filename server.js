@@ -24,7 +24,12 @@ var server = http.createServer(function(req, res) {
         return;
     }
     
-    // routes
+    // Routes
+    // TODO: Refactor to handle multiple routes
+    // 1. Get String.extension
+    // 2. Switch case for extensions
+    // 3. Load Proper MIME Type based on extension
+    // 4. Handle Errors before writeHead.
     if (action === '/') {
         // Read Home Page File.
         fs.readFile('./index.html', function(err, html) {
