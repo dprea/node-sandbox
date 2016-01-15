@@ -26,10 +26,13 @@ var server = http.createServer(function(req, res) {
     
     // Routes
     // TODO: Refactor to handle multiple routes
-    // 1. Get String.extension
-    // 2. Switch case for extensions
-    // 3. Load Proper MIME Type based on extension
-    // 4. Handle Errors before writeHead.
+    // 1. Get action.string.extension
+    // 2. Full action name can be used to call file
+    // 3. Handle Errors before writeHead.
+    // 4. Switch/Case for extensions
+    // 5. Load Proper MIME Type based on extension
+    // 6. fs.Read the action file
+    // 7. Write and send
     if (action === '/') {
         // Read Home Page File.
         fs.readFile('./index.html', function(err, html) {
